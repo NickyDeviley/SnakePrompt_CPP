@@ -1,5 +1,9 @@
 # Snake Game Console C++ – Um clássico jogo da cobrinha para o terminal do Windows.
 
+Link: https://www.youtube.com/watch?v=e8lYLYlrGLg
+
+Canal: Javidx9 
+
 Descrição: Este projeto é uma implementação do jogo Snake desenvolvida para rodar diretamente no console. O objetivo principal foi criar um sistema de renderização de alto desempenho para terminal, resolvendo o problema de "flickering" (tela piscando) comum em jogos de console simples. Isso é feito através da manipulação direta de buffers de tela via API do Windows, garantindo uma transição de frames fluida.
 
 Pré-requisitos:
