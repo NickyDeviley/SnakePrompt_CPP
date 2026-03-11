@@ -1,46 +1,41 @@
-# Snake Game Console C++ 🐍
+# Snake Game Console C++ – Um clássico jogo da cobrinha para o terminal do Windows.
 
-Link do vídeo: https://www.youtube.com/watch?v=e8lYLYlrGLg
-Canal: Javidx9
+Descrição: Este projeto é uma implementação do jogo Snake desenvolvida para rodar diretamente no console. O objetivo principal foi criar um sistema de renderização de alto desempenho para terminal, resolvendo o problema de "flickering" (tela piscando) comum em jogos de console simples. Isso é feito através da manipulação direta de buffers de tela via API do Windows, garantindo uma transição de frames fluida.
 
-Um clássico jogo da cobrinha desenvolvido inteiramente em C++ para rodar diretamente no terminal do Windows. O projeto utiliza a API do Windows (Windows.h) para manipulação de buffers de tela, permitindo uma renderização rápida e fluida sem a necessidade de bibliotecas gráficas externas como SDL ou SFML.
-🚀 Funcionalidades
-
-    Renderização de Alto Desempenho: Uso de CreateConsoleScreenBuffer e WriteConsoleOutputCharacter para evitar o "flicker" (piscar da tela) comum em jogos de console simples.
-
-    Sistema de Pontuação: Contador em tempo real exibido no topo da tela.
-
-    Lógica de Movimentação: A cobra cresce ao comer e o jogo termina se houver colisão com as bordas ou com o próprio corpo.
-
-    Suporte a Caracteres Especiais: Configurado para exibir acentuação e caracteres wchar_t (Wide Characters).
-
-🛠️ Tecnologias Utilizadas
-
-    Linguagem: C++
-
-    API: Windows API (para manipulação de console e entrada de teclado).
-
-    Bibliotecas Padrão: iostream, list, thread, chrono.
-
-🎮 Como Jogar
-Pré-requisitos
+Pré-requisitos:
 
     Sistema Operacional Windows.
 
-    Compilador C++ (GCC, Clang ou MSVC).
+    IDE Microsoft Visual Studio (Recomendado 2026 ou superior) ou compilador C++ (MSVC).
 
-Comandos
+Instalação/Uso:
 
-    Setas Esquerda/Direita: Controlam a direção da cobra (o sistema rotaciona a direção atual).
+    Clone o repositório ou copie o código fonte.
 
-    Barra de Espaço: Reinicia o jogo após o Game Over.
+    Abra o Microsoft Visual Studio.
 
-Legenda de Caracteres
+    Crie um novo Projeto Vazio (C++).
 
-    @ : Cabeça da cobra.
+    Adicione um arquivo .cpp ao projeto e cole o código.
 
-    O : Corpo da cobra.
+    Certifique-se de que o projeto está configurado para compilar em x64 ou x86.
 
-    % : Comida.
+    Compile e execute pressionando F5.
 
-    X : Estado de morte (colisão).
+    Comandos: * Setas Direcionais: Controlam a direção da cobra.
+
+        Barra de Espaço: Reinicia o jogo após o Game Over.
+
+Tecnologias:
+
+    C++
+
+    Windows API (Win32)
+
+Contribuição:
+
+    Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request com melhorias na lógica de colisão, novos sistemas de pontuação ou otimizações de performance.
+
+Licença:
+
+    MIT License
