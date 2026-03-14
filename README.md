@@ -4,7 +4,7 @@ Link: https://www.youtube.com/watch?v=e8lYLYlrGLg
 
 Canal: Javidx9 
 
-Descrição: Este projeto é uma implementação do jogo Snake desenvolvida para rodar diretamente no console. O objetivo principal foi criar um sistema de renderização de alto desempenho para terminal, resolvendo o problema de "flickering" (tela piscando) comum em jogos de console simples. Isso é feito através da manipulação direta de buffers de tela via API do Windows, garantindo uma transição de frames fluida.
+Descrição: Este projeto é uma implementação do jogo Snake desenvolvida para rodar diretamente no console. O objetivo principal foi desenvolver um jogo simples de console para treinar lógica de programação e utilizar a API do Windows para manipular uma janela de console. Implementando soluções para problemas como "flickering" (tela piscando) que costuma ocorrer em jogos de console.
 
 Pré-requisitos:
 
